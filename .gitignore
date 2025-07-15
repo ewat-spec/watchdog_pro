@@ -1,3 +1,26 @@
+# Logs
 *.log
 *.out
+logs/
 nohup.out
+
+# Sensitive data
+*.key
+*.pub
+*.pem
+*.gpg
+*.env
+*.token
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Termux junk
+*.swp
+*.tmp
+.DS_Store
+
+# Backup files
+*.bak
+*.old
